@@ -1,0 +1,145 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".1">
+
+        <FrameLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            tools:context=".OcrCaptureActivity"
+            android:importantForAccessibility="noHideDescendants">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1">
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:id="@+id/main_rel_layout">
+
+                        <Button
+                            android:id="@+id/focus_button"
+                            android:layout_margin="20dp"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:text="focus"
+                            android:visibility="gone" />
+
+
+                        <android.view.SurfaceView
+                            android:id="@+id/surface"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginBottom="18dp" />
+
+                        <LinearLayout
+                            android:id="@+id/bottomLinLayout"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:orientation="horizontal"
+                            android:layout_alignBottom="@+id/surface"
+                            android:weightSum="10">
+
+                            <LinearLayout
+                                android:id="@+id/actColorLinLayout"
+                                android:orientation="horizontal"
+                                android:layout_width="0dp"
+                                android:layout_weight="9"
+                                android:layout_height="fill_parent"
+                                android:padding="4dp">
+
+                                <TextView
+                                    android:id="@+id/luma_textview"
+                                    android:text="Color"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:textSize="20sp" />
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:id="@+id/mtchColorLinLayout"
+                                android:orientation="horizontal"
+                                android:layout_width="0dp"
+                                android:layout_weight="1"
+                                android:layout_height="fill_parent"
+                                android:padding="4dp" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/myImageView"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:alpha="128"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/ic_pause_white_24dp" />
+
+                        <ImageView
+                            android:id="@+id/myImageView2"
+                            android:layout_width="200dp"
+                            android:layout_height="200dp"
+                            android:alpha="128"
+                            android:visibility="invisible" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/RadioButtonColor"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_button_dot"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:checked="true"
+                android:layout_weight="1"
+                android:text="@string/radio_button_color_dot"
+                android:onClick="onRadioButtonClicked" />
+
+
+            <RadioButton
+                android:id="@+id/radio_button_blob"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/radio_button_color_blob"
+                android:onClick="onRadioButtonClicked" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,1023 @@
+<resources>
+    <array name="list_items">
+        <item>Where am I</item>
+        <item>Around me</item>
+        <item>See Object in image</item>
+        <item>Read Text in image</item>
+        <!--item>Read Text Offline</item-->
+        <item>Eye-D Market</item>
+        <item>Contact us</item>
+        <item>Exit</item>
+    </array>
+
+
+    <array name="list_items_categories">
+        <item>ATM</item>
+        <item>Bus stations</item>
+        <item>Bank</item>
+        <item>Cinema</item>
+        <item>Food</item>
+        <item>Hospital</item>
+        <item>Hotels</item>
+        <item>Shops</item>
+        <item>Religious Places</item>
+    </array>
+
+    <array name="list_items_categories_here_maps">
+        <item>ATM</item>
+        <item>Bus stations</item>
+        <item>Bank</item>
+        <item>Cinema</item>
+        <item>Food</item>
+        <item>Hospital</item>
+        <item>Shops</item>
+        <item>Hotels</item>
+        <item>Petrol-Station</item>
+        <item>Restrooms</item>
+        <item>Religious-Places</item>
+    </array>
+
+    <array name="list_items_food_sub_cat_here_maps">
+        <item>Restaurant</item>
+        <item>Cafe</item>
+        <item>Fast Food</item>
+    </array>
+
+    <array name="list_items_food_sub_cat">
+        <item>Cafe</item>
+        <item>Bakery</item>
+        <item>Bar</item>
+        <item>Meal Takeaway</item>
+        <item>Meal Delivery</item>
+        <item>Super Market</item>
+        <item>Night Club</item>
+        <item>Restaurant</item>
+    </array>
+
+    <array name="list_items_support">
+        <item>Live Chat with team</item>
+        <!--<item>SMS a team member</item>-->
+        <item>Call a team member</item>
+        <item>Send us an Email</item>
+    </array>
+    <array name="list_items_bus_mode">
+        <item>Check for closest bus stop</item>
+        <item>Stop Bus Mode</item>
+    </array>
+    <array name="list_items_directions">
+        <item>Next Step</item>
+        <!--<item>Straight Line Mode</item>-->
+        <item>Exit</item>
+    </array>
+    <array name="list_items_store_sub_cat">
+        <item>Pharmacy</item>
+        <item>Department Store</item>
+        <item>Home Goods Store</item>
+        <item>Liquor Store</item>
+        <item>Convenience Store</item>
+        <item>Clothing Store</item>
+        <item>Electronics Store</item>
+        <item>Furniture Store</item>
+        <item>Hardware Store</item>
+        <item>Pet Store</item>
+        <item>Shoe Store</item>
+    </array>
+    <array name="support_email_receipients">
+        <item>ankit@eye-d.in</item>
+    </array>
+    <array name="array_ocr_lang_names">
+        <item>Arabic</item>
+        <item>Bengali (Bangladesh)</item>
+        <item>Chinese (Taiwan)</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Gujarati</item>
+        <item>Hindi (India)</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Kannada</item>
+        <item>Latin</item>
+        <item>Malayalam</item>
+        <item>Marathi</item>
+        <item>Nepali</item>
+        <item>Norwegian Bokmål (Norway)</item>
+        <item>Portuguese (Portugal, Brazil)</item>
+        <item>Punjabi</item>
+        <item>Russian (Russia)</item>
+        <item>Sindhi</item>
+        <item>Spanish</item>
+        <item>Tamil (India)</item>
+        <item>Telugu</item>
+        <item>Vietnamese (Vietnam)</item>
+    </array>
+    <array name="array_ocr_lang_codes">
+        <item>ar</item>
+        <item>bn</item>
+        <item>zh</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>gu</item>
+        <item>hi</item>
+        <item>it</item>
+        <item>ja</item>
+        <item>kn</item>
+        <item>en</item>
+        <item>ml</item>
+        <item>mr</item>
+        <item>ne</item>
+        <item>nb</item>
+        <item>pt</item>
+        <item>pa</item>
+        <item>ru</item>
+        <item>sd</item>
+        <item>es</item>
+        <item>ta</item>
+        <item>te</item>
+        <item>vi</item>
+
+    </array>
+    <array name="array_tts_codes">
+        <item>ar_IL</item>
+        <item>bn_BD</item>
+        <item>zh_TW</item>
+        <item>fr_FR</item>
+        <item>de_AT</item>
+        <item>gu_IN</item>
+        <item>hi_IN</item>
+        <item>it_IT</item>
+        <item>ja_JP</item>
+        <item>kn_IN</item>
+        <item>en_IN</item>
+        <item>ml_IN</item>
+        <item>mr_IN</item>
+        <item>ne_NP</item>
+        <item>nb_NO</item>
+        <item>pt_BR</item>
+        <item>pa_IN</item>
+        <item>ru_RU</item>
+        <item>sd_PK</item>
+        <item>es_AR</item>
+        <item>ta_IN</item>
+        <item>te_IN</item>
+        <item>vi_VN</item>
+
+
+    </array>
+    <array name="array_google_ocr_lang_codes">
+        <item>yue</item>
+        <item>en</item>
+        <item>fr</item>
+        <item>ko</item>
+        <item>in</item>
+        <item>en</item>
+        <item>zh</item>
+        <item>ja</item>
+        <item>sv</item>
+        <item>it</item>
+        <item>pt</item>
+        <item>pt</item>
+        <item>fi</item>
+        <item>tr</item>
+        <item>es</item>
+        <item>hi</item>
+        <item>es</item>
+        <item>ru</item>
+        <item>en</item>
+        <item>da</item>
+        <item>bn</item>
+        <item>nb</item>
+        <item>nl</item>
+        <item>vi</item>
+        <item>th</item>
+        <item>zh</item>
+        <item>hu</item>
+        <item>de</item>
+        <item>pl</item>
+        <item>en</item>
+        <item>fr</item>
+        <!--<item>mr</item>-->
+        <item>ta</item>
+        <item>ar</item>
+    </array>
+    <array name="array_google_tts_codes">
+        <item>yue_HK</item>
+        <item>en_GB</item>
+        <item>fr_FR</item>
+        <item>ko_KR</item>
+        <item>in_ID</item>
+        <item>en_AU</item>
+        <item>zh_TW</item>
+        <item>ja_JP</item>
+        <item>sv_SE</item>
+        <item>it_IT</item>
+        <item>pt_BR</item>
+        <item>pt_PT</item>
+        <item>fi_FI</item>
+        <item>tr_TR</item>
+        <item>es_US</item>
+        <item>hi_IN</item>
+        <item>es_ES</item>
+        <item>ru_RU</item>
+        <item>en_IN</item>
+        <item>da_DK</item>
+        <item>bn_BD</item>
+        <item>nb_NO</item>
+        <item>nl_NL</item>
+        <item>vi_VN</item>
+        <item>th_TH</item>
+        <item>zh_CN</item>
+        <item>hu_HU</item>
+        <item>de_DE</item>
+        <item>pl_PL</item>
+        <item>en_US</item>
+        <item>fr_BE</item>
+        <!--<item>mr_IN</item>-->
+        <item>ta_IN</item>
+        <item>ar_IL</item>
+    </array>
+
+    <!--string name="google_app_id">1:327467773696:android:54da25094222e31a</string-->
+
+    <string name="app_name" translatable="false">Eye-D Pro</string>
+    <string name="main_item_selfie_camera">Selfie Camera</string>
+    <string name="main_item_petition" translatable="false">Eye-D Petition</string>
+    <string name="main_item_where_am_i">Where Am I</string>
+    <string name="main_item_around_me">Around Me</string>
+    <string name="main_item_see_object">See Object in Image</string>
+    <string name="main_item_read_text">Read Text in Image</string>
+    <string name="main_item_market">Eye-D Market</string>
+
+    <string name="main_item_contact">Contact us</string>
+
+    <string name="main_item_exit">Exit</string>
+
+    <string name="main_item_read_text_offline">Read Text Offline</string>
+    <string name="main_item_pdf_reader_offline" translatable="false">Pdf Reader Offline</string>
+
+    <string name="main_item_favourite_places">Favourite Places</string>
+
+    <string name="market_item_advanced_ocr">Advanced OCR</string>
+
+    <string name="market_item_pdf_reader">PDF Reader</string>
+    <string name="market_item_pdf_reader_plus">PDF Reader Plus</string>
+    <string name="market_item_color_reader">Color Reader</string>
+    <string name="market_item_color_reader_blob" translatable="false">Color Reader Blob</string>
+    <string name="market_item_currency_detector">Currency Detector</string>
+    <string name="market_item_premium_plan">Premium Version</string>
+    <string name="market_item_realtimeocr" translatable="false">Real-Time OCR</string>
+    <string name="label_activity_near_by_categories">Categories of Nearby Places</string>
+    <string name="filter_view_https_license" translatable="false">Activate License</string>
+
+    <string name="label_activity_near_by_places">List of Nearby Places</string>
+
+    <string name="label_settings">Settings</string>
+    <string name="label_activity_vision">Vision Mode</string>
+    <string name="label_vision_mode">Click camera button to open camera, Click a picture, then press Done or Save to get the result.</string>
+    <string name="label_image_analysis">Image Analysis</string>
+    <string name="label_text_analysis">Text Analysis</string>
+    <string name="label_image_res">Image analysis result </string>
+    <string name="label_text_res">Text analysis result </string>
+    <string name="title_activity_directions">Directions</string>
+    <string name="title_activity_near_by_places">Near by Places</string>
+    <string name="title_activity_bus_mode">Bus Mode Menu</string>
+    <string name="title_activity_near_by_categories">NearByCategories</string>
+    <string name="title_activity_near_by_categories1">NearByCategories1</string>
+    <string name="title_activity_near_by_places1">NearByPlaces1</string>
+    <string name="title_activity_navigate">Navigate</string>
+    <string name="title_activity_pair_bluetooth">PairBluetooth</string>
+    <string name="title_activity_pair_bluetooth1">PairBluetooth1</string>
+    <string name="title_activity_bluetooth">BluetoothActivity</string>
+    <string name="title_activity_tutorial">Tutorial</string>
+    <string name="title_activity_vision">VisionActivity</string>
+    <string name="title_login">Setup Required</string>
+    <string name="title_first_chat">One time info on live chat feature.</string>
+    <string name="title_location_settings" translatable="false">Location Settings </string>
+    <string name="event_address_found">Address Found</string>
+
+    <string name="event_distance_teller">%1$s is %2$s meters away</string>
+    <string name="event_gps_alert">GPS Alert</string>
+    <string name="event_keep_walking">Keep Walking</string>
+    <string name="event_u_turn">Take U Turn</string>
+    <string name="event_processing_image_wait">Processing image. Please wait.</string>
+    <string name="event_approaching">is approaching</string>
+    <string name="event_gps_enabled">GPS is enabled. Please click enable below.</string>
+    <string name="message_welcome">Welcome to Eye-D Pro</string>
+    <string name="message_current_location" type="id">You are currently at </string>
+
+    <string name="message_this_list">Showing list of landmarks near you. </string>
+    <string name="message_showing_list">Showing list of nearby places</string>
+    <string name="message_login">We need your account info like email, name so that we can give techsupport to you like live chat. Please learn more in our <a href="http://eye-d.in/terms%26conditions/TermsOfuse.html">terms and conditions</a> and <a href="http://eye-d.in/terms%26conditions/PrivacyPolicy.html">privacy policy</a></string>
+    <string name="message_dialog_select_image">Choose an picture from options below to scan its content</string>
+    <string name="message_dialog_select_camera">Camera</string>
+    <string name="message_dialog_select_gallery">Gallery</string>
+    <string name="message_first_chat_help">This is live chat support from Eye-D team. Here you can ask us questions about using eye-d app, suggest improvements, help us know you more or just tell us how your day is going. We will love to talk to you and we are sure you will find us pretty amusing. Click \'send hello button\' below to send you first hello to us.</string>
+    <string name="button_gps_alert">Enable GPS</string>
+
+    <string name="button_agree">Agree and continue</string>
+    <string name="button_exit">exit</string>
+    <string name="button_dialog_cancel">Cancel</string>
+
+    <string name="button_back">Back</string>
+    <string name="button_camera">Camera</string>
+
+    <string name="button_send">Send</string>
+    <string name="button_upload_image">Upload image</string>
+    <string name="header_image_details">Details:</string>
+    <string name="header_image_preview">Preview:</string>
+    <string name="header_eyed_chat">Eye-D Pro Chat Support</string>
+    <string name="link_tnc_url">http://eye-d.in/terms%26conditions/TermsOfuse.html</string>
+    <string name="link_policy_url">http://eye-d.in/terms%26conditions/PrivacyPolicy.html</string>
+    <string name="error_no_internet">No Internet, Please enable your internet</string>
+    <string name="error_no_fetch_location">Couldn’t fetch location. Please try again</string>
+    <string name="error_no_gps">Please enable GPS</string>
+    <string name="error_something_wrong">Something went wrong. Please restart app and click live chat support</string>
+    <string name="error_no_such_place">Sorry, No such places available nearby</string>
+    <string name="error_no_bus_stops">No bus stops nearby</string>
+    <string name="error_no_geocoder_available">No geocoder available</string>
+    <string name="error_no_address_found">No Address Found</string>
+    <string name="error_image_picker">Something is wrong with that image. Pick a different one please.</string>
+    <string name="message_login_popup">This app uses information like location to find places near you and account info to give techsupport like live-chat. Please click agree and give permissions on the next screen. Click button below to learn our Terms and Conditions and Privacy Policy</string>
+    <string name="event_logging_in">Logging in...</string>
+    <string name="error_update_failed">User update failed.</string>
+    <string name="error_setup_failed">Setup failed. Please restart app.</string>
+    <string name="message_setup_success">App setup successful.</string>
+    <string name="message_perm_grant">Please grant all permissions for app to work.</string>
+    <string name="event_first_setup">Setting up app for first use...</string>
+    <string name="message_perm_warn">You are not giving permissions it may cause a bad application experience</string>
+    <string name="message_click_allow_perm">To use the app, click Allow on the alert box for location permission</string>
+    <string name="message_landmark">The nearest landmark is</string>
+    <string name="event_closing">Closing Eye-D Pro</string>
+    <string name="event_perm_grant">Permission granted.</string>
+    <string name="event_perm_denied">Permission denied.</string>
+    <string name="event_send_hello">Send Hello</string>
+    <string name="message_hi_there">Hi There</string>
+
+
+    <string name="button_close">Close</string>
+    <string name="error_upload_path">Uploading file must be located in local storage.</string>
+    <string name="error_upload_fail">Fail to upload the file.</string>
+    <string name="message_download_file">Do you want to download this file?</string>
+    <string name="event_nothing_in_image">Nothing found in this image</string>
+    <string name="message_wait">Please wait</string>
+    <string name="message_first_chat_2">Support team is online. Please enter your query, feedback or help you need. Please wait a few minutes before you receive a reply. Generally, we reply very quickly. In case we miss you message, mainly due to time-zone difference, we will definitely reply later and you will get a notification later</string>
+    <string name="event_start_chat">Start chat now</string>
+    <string name="error_no_camera">No camera application found. Please make a camera as default application in your phone.</string>
+    <string name="message_camera_active_text">Camera active. Right swipe to select camera button to click picture and read text</string>
+    <string name="message_camera_active_image">Camera active. Right swipe to select camera button to click picture and identify objects</string>
+
+
+    <string name="message_camera_restart">You can analyze a maximum of 3 images at a time. Please press back and restart image analysis function</string>
+    <string name="processed_images">This is a list of all processed images</string>poloměr
+    vyhledávání
+    <string name="message_labels_in_image">Found following objects in image:</string>
+    <string name="message_text_in_image">Found following text in image:</string>
+    <string name="message_no_labels_in_image">No objects found in image</string>
+    <string name="message_no_text_in_image">No text found in image</string>
+    <string name="message_swipe_right">Swipe right to hear again.</string>
+    <string name="message_seekbar">Seekbar to change radius of search</string>
+    <string name="search_radius">Search radius: </string>
+    <string name="search_radius_default">Search radius: 500 meters</string>
+
+    <string name="area_is">Area is</string>
+    <string name="message_image_content">Image content</string>
+    <string name="error_cloud_vision_api_fail">Processing request failed. Please restart app.</string>
+    <string name="message_picture_button">Take picture button. Double tap to take picture and analyze.</string>
+    <string name="changelog_full_title">What is new in this version</string>
+    <string name="near">at</string>
+    <string name="share_button">Click to share last processed image with others</string>
+    <string name="event_shared_eyed">Shared via Eye-D Pro</string>
+    <string name="share_text">Use Eye-D Pro, this helps in navigation, image and text recognition and more. Download from: https://goo.gl/inf2tV</string>
+    <string name="current_address_button">Current address button</string>
+    <string name="button_invite_friends">Invite Friends</string>
+    <string name="button_app_manual">App Manual</string>
+    <string name="button_close_drawer">Close</string>
+    <string name="error_no_whereami">Error in finding location. Please go back and try again.</string>
+    <string name="manual_heading_first_time">Setting up Eye-D Pro for first use</string>
+    <string name="manual_desc_first_time">1. Ensure that TalkBack is turned on (Note that Eye-D works best with TalkBack.)\n2. Double tap the app icon to launch the app\n3. Accept the terms and conditions and provide permissions (Marshmallow and above)\n4. Double tap any item in the menu to open/start using the mode.</string>
+    <string name="manual_heading_main_items">Below explained are the menu items and functionality:</string>
+    <string name="manual_subheading_whereami">Where Am I</string>
+    <string name="manual_desc_whereami">Launch the app and simply tap on Where Am I at any point of time to be location aware. It tells you your location along with list of nearby landmarks so that you can relate well to the location. Select the share location button to share the location along with nearest landmark via various channels.</string>
+    <string name="manual_subheading_travelmode">Travel Mode</string>
+    <string name="manual_desc_travelmode">Select the button next to share location button in Where Am I to initiate travel mode. Select the desired time interval from the drop down menu to get notified about the change in location while the app is in background. Use this mode while you are taking a walk down the lane or traveling. You can also continue using other modes while Travel mode keeps updating you about your change in location.</string>
+    <string name="manual_subheading_aroundme">Around Me</string>
+    <string name="manual_desc_aroundme">Want to find, navigate to or search for a nearby restaurant? Then select Around Me, it will give you a list of ATM, Bus Stop, Banks, Cinema, Food Joints, Hospital and Stores. Select the desired category and start exploring what’s nearby. You can search for place in the radius of 500 to 5500 meters. To increase the search radius from 500 metres to beyond simply tap on search seek bar control and use the volume up button, to decrease the radius use the volume down button. You can also search for any place by its name, tap on Entre Place Name or Type Manually Button to enter place name and start looking for it.</string>
+    <string name="manual_subheading_seeobjects">See Objects</string>
+    <string name="manual_desc_seeobjects">You can use the mode to evaluate your surroundings by clicking photos of what’s in front of you. To use this mode simple tap on See Object In Image button and then follow the instructions to click an image. The app will notify you about the objects in the image and describe the scene giving you a brief idea about the surrounding.</string>
+    <string name="manual_subheading_readtext">Read Text</string>
+    <string name="manual_desc_readtext">Be it a digital display, Newspaper, Book or even a handwritten document Eye-D can read it all. The reading feature is limited to English as of now and is we are all set to add a bunch of languages in near future.</string>
+    <string name="manual_subheading_eyedmarket">Eye-D Market</string>
+    <string name="manual_desc_eyedmarket">We have designed this to put up trialModules (of-course the interesting and fascinating ones) for sale or claim from time to time. We did this so that you don’t have to waste time searching for apps or extension to improve your productivity. </string>
+    <string name="manual_subheading_livechat">Live Chat Support</string>
+    <string name="manual_desc_livechat">Feel free to chat, drop a text or even call us if you are having trouble using the app or have an idea that you think should be implemented. You can even just say Hi! To us, we are good folks who love to hear to from you (Smile)</string>
+
+
+    <string name="manual_subheading_exit">Exit</string>
+
+    <string name="manual_desc_exit">Closes the app</string>
+    <string name="EVENT_RECEIVER_FAIL">Failed to register device on google. Retrying in seconds.</string>
+    <string name="error_camera_open_failed">Error in opening camera on your device, please restart app. This happens on few devices. Also, please report this via contact us .to</string>
+    <string name="button_app_rate">Rate app on playstore</string>
+    <string name="error_not_supported_device">Please install google play services for app to work.</string>
+    <string name="button_settings">Settings</string>
+    <string name="share_loc_button">Click to share your location with others on whatsapp, gmail etc.</string>
+    <string name="refresh_loc_button">Click to refresh your current location and landmarks</string>
+    <string name="share_loc_button_text">Share Location</string>
+    <string name="map_button_text">Show Touch Map</string>
+    <string name="map_button">This will open a map with your location and landmarks. As you move your finger on map, it will tell you your place and landmarks.</string>
+    <string name="message_touch_map_open">You are at center of map. As you move along and touch a landmark, its name and distance will be announced. Press back to go to WhereAmI screen</string>
+    <string name="error_no_slow_internet">No internet or your internet is slow. Please try again with better internet.</string>
+    <string name="error_cloud_vision_api_fail_server">Server error. Please try again or contact live chat support.</string>
+    <string name="event_chat_loading">Loading chat support. Please wait.</string>
+    <string name="event_chat_init">Chat initialized</string>
+    <string name="message_remote_debug_off">Remote debugging is off on Eye-D server. Please contact chat support if you need assistance. This feature can be enabled only by Eye-D team</string>
+    <string name="message_remote_debug_on">Remote debugging is now on. Now Eye-D team will help you in your issues. Please inform Eye-D team via live chat support that you have enabled debugging.</string>
+    <string name="list_of_landmarks">This is a list of landmarks around you.</string>
+    <string name="button_contributors">Contributor\'s list</string>
+    <string name="current_address">I am currently at</string>
+    <string name="location_share_text">Shared via Eye-D Pro</string>
+    <string name="event_whereami_launching">Getting your location</string>
+    <string name="error_no_results_whereami">No results. Please go back and try again.</string>
+    <string name="error_landmark_not_known">not known.</string>
+    <string name="label_activity_main_activity">Eye-D Pro</string>
+    <string name="label_activity_settings">Settings screen</string>
+    <string name="label_activity_manual">User manual screen.</string>
+    <string name="label_activity_whereami">Where am i screen</string>
+    <string name="label_activity_chat">Chat Screen</string>
+    <string name="label_activity_shareimage">Eye-D Pro image recognition screen</string>
+    <string name="label_activity_subcat">Subcategory screen</string>
+    <string name="label_activity_contributors">Contributors screen</string>
+    <string name="label_activity_contactus">Contact us screen</string>
+    <string name="message_how_to_contact_us">Support available from 10 AM to 8 PM Indian Standard Time in english and hindi. Here you can tell us when you have an issue, feedback or suggestion. There are three modes of contact. If you click on SMS, an automatic message will be send to our support team and we will call you. You can call us directly by clicking on CALL button. You can do live chat with us by clicking on Live Chat button.</string>
+    <string name="message_support_available">Support team is available at this time.</string>
+    <string name="error_image_picker_facebook">Facebook image sharing is broken. This is an error from Facebook app. Please wait while their team fixes it.</string>
+    <string name="error_camera_open_failed_generic">Camera open failed. Please restart app or contact live chat support.</string>
+    <string name="error_no_slow_internet2">No internet or slow internet. Please disconnect and reconnect your internet or move to faster internet.</string>
+    <string name="message_camera_preview_wait">Please wait, starting camera preview</string>
+    <string name="error_no_gmaps_activity">Error starting google maps. Please ensure it is installed or restart eye-d app.</string>
+    <string name="error_something_wrong2">Something went wrong. Please try again.</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9896294196280746/6198911119</string>
+    <string name="error_read_timeout">Sorry, no response from server after a long time. Please try again ro resolve internet issues.</string>
+    <string name="gallery_button">Open gallery</string>
+    <string name="button_lang">Language</string>
+    <string name="button_saved_text">Saved Results</string>
+    <string name="label_activity_ocroutput">OCR Output Screen</string>
+    <string name="message_locationSettings_change_prompt">Your location mode is set to Battery Saving. For Better accuracy switch to Device Only or High Accuracy Mode</string>
+    <string name="message_TTS_lang">You have selected a non-latin language. Please make sure correct voice-data and TTS are installed on your system.</string>
+    <string name="dialog_save_title">Save Text File</string>
+    <string name="button_save_text">Save</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="textview_filename">Name of file to be saved</string>
+    <string name="error_save_text_file">Error in saving file.</string>
+    <string name="message_text_file_save_success">File saved successfully.</string>
+    <string name="event_ocr_lang_selected">OCR language now is</string>
+    <string name="event_ocr_tts_selected">TTS selected by you is</string>
+    <string name="dialog_OCR_share_caution">One time info before sharing text</string>
+    <string name="message_ocr_share_caution">Please note that it is a user\'s resposibility to ensure that no copyrighted material is shared via Eye-D app. If copyrighted material or books need to shared, Marrakesh Treaty allow reproduction of material in accessible format for the visually impaired. It is user\'s responsibility to confirm if his/her country is a signatory to the same. To proceed, please click on the button below which says Agree and Continue or click cancel to exit. This is a one time notification.</string>
+    <string name="ocr_share_text">Sharing text in image using Eye-D Pro --</string>
+    <string name="message_camera_active_text2">Camera active. Touch on center of screen to select camera button.</string>
+    <string name="message_ocr_already_saved">Current OCR text is already saved.</string>
+    <string name="event_no_ocr_saved_files">No Files to show.</string>
+    <string name="event_loading_text">Loading text file. Please wait.</string>
+    <string name="label_activity_savedocr">Saved OCR files screen</string>
+    <string name="button_prev_sent">Previous sentence</string>
+    <string name="button_play">Play</string>
+    <string name="button_next_sent">Next sentence</string>
+    <string name="share_text_button">Share text</string>
+    <string name="button_save_image">Save text</string>
+
+
+    <string name="start_of_text">Start of text</string>
+    <string name="end_of_text">End of text</string>
+    <string name="radio_button_color_dot">Point Color Mode</string>
+    <string name="radio_button_color_blob">Object Color Mode</string>
+    <string name="label_activity_ocrcapture">Take picture screen</string>
+    <string name="spinner_latin" translatable="false">Latin TTS</string>
+    <string name="spinner_hindi" translatable="false">Hindi TTS</string>
+    <string name="spinner_bengali" translatable="false">Bengali TTS</string>
+    <string name="spinner_nepali" translatable="false">Nepali TTS</string>
+    <string name="spinner_vietnamese" translatable="false">Vietnemese TTS</string>
+    <string name="spinner_chinese" translatable="false">Chinese TTS</string>
+
+
+    <string name="spinner_russian" translatable="false">Russian TTS</string>
+
+    <!--https://cloud.google.com/vision/docs/languages-->
+    <string name="spinner_norwegian" translatable="false">Norwegian TTS</string>
+
+    <!--https://cloud.google.com/speech/docs/languages-->
+    <string name="spinner_marathi" translatable="false">Marathi TTS</string>
+
+    <!--https://cloud.google.com/vision/docs/languages-->
+    <string name="spinner_tamil" translatable="false">Tamil TTS</string>
+
+    <string name="spinner_arabic" translatable="false">Arabic TTS</string>
+
+    <string name="event_translating_results">Translating results to your phone language...</string>
+    <string name="later">Later</string>
+    <string name="play_audio_video">Play Audio Tutorial in Hindi</string>
+    <string name="play_youtube_video">Play Youtube Tutorial in English</string>
+    <string name="start_tutorial">Start Tutorial</string>
+    <string name="tutorial_alert_title">Tutorial to use Eye-D Pro</string>
+    <string name="tutorial_alert_message">Welcome to Eye-D application. Please click Start Tutorial button to start tutorial or click later. You can always access tutorial by selecting App Manual button from left navigation drawer of drawer.</string>
+    <string name="text_tutorial">Text Tutorial below</string>
+    <string name="label_activity_shareimage_pro">Eye-D Pro Image Recognition</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="app_not_licensed">App not licensed</string>
+    <string name="app_not_licensed_message">Your installation is not licensed. If you feel this is a mistake, please contact us via chat support. Else, please go to play store and purchase the app to continue using it.</string>
+    <string name="goto_playstore">Go to Playstore</string>
+    <string name="message_color_reader_init">Initializing color reader. Please point your camera to an object to read color at the center of screen.</string>
+    <string name="header_eyed_pro_chat">Eye-D Pro Chat Support</string>
+    <string name="event_shared_eyed2">Shared via Eye-D Pro</string>
+    <string name="error_restart_seeobject">Error in accessing camera file. Please open see object again to resolve. Going back to main screen.</string>
+    <string name="one">one</string>
+    <string name="two">two</string>
+    <string name="three">three</string>
+    <string name="four">four</string>
+    <string name="five">five</string>
+    <string name="six">six</string>
+    <string name="seven">seven</string>
+    <string name="nine">nine</string>
+    <string name="ten">ten</string>
+    <string name="eleven">eleven</string>
+    <string name="PageNot">Full Page Not Detected, Try Again</string>
+    <string name="event_getting_items">Getting items, please wait...</string>
+    <string name="dialog_OCR_one_time_info">One time info before using OCR</string>
+    <string name="dialog_pdfReader_one_time_info" translatable="false">One time info before using PDF Reader</string>
+    <string name="dialog_pdfReaderPlus_time_info" translatable="false">One time info before using PDF Reader PLUS</string>
+
+    <string name="button_ok">OK</string>
+    <string name="error_restart_shared">Error in accessing image file and app restart required. Going back to main screen. Please share image again.</string>
+    <string name="button_ocrcap_info">Info</string>
+    <string name="NO_TTS_ENGINE_INSTALLED">You don\'t have a TTS engine installed for the language.</string>
+    <string name="HELP_TTS">Please install a supporting TTS engine or contact via live chat for help.</string>
+    <string name="message_OCR_one_time_info">Advanced OCR Auto-detect languages. Please ensure that your TTS works with the specific languages. If Google TTS engine is used, language will be automatically downloaded if not found. Please message us on Live chat in case you want support.</string>
+    <string name="message_pdfReader_one_time_info" translatable="false">You can use PDF Reader to read any type of PDF files automatically. With PDF Reader you can read 400 pages every month. For unlimited pages reading please upgrade to PDF Reader PLUS.</string>
+    <string name="message_pdfReaderPlus_one_time_info" translatable="false">You can use PDF Reader Plus to read any type of PDF document that you have. You can read any language and any number of pages with this.</string>
+
+    <!--array name="array_market_items">
+        <item>Advanced OCR</item>
+        <item>Color Detection</item>
+        <item>Currency Detection</item>
+        <!-item>Premium Version</item-->
+    <!--item>Real-Time OCR</item>
+    </array-->
+
+    <!--array name="array_market_items_code">
+        <itrialModuledule.advocr.1</item>
+        <itrialModuledule.coldetect.1</item>
+        <itrialModuledule.currdetect.1</item>
+        <!-item>plan.premium.1</item->
+        <-itrialModuledule.realtimeocr.1</item->
+    </array-->
+
+    <!--array name="array_market_items_ids">
+        <item>112</item>
+        <item>113</item>
+        <item>114</item>
+        <!-item>115</item->
+        <!-item>116</item->
+    </array-->
+
+    <string name="geofence2">Enter the radius, to get notified within</string>
+    <string name="geofence1">Enter the name you want to get notified by</string>
+    <string name="geofence3">Enter Address, City or Zip Code</string>
+    <string name="geofence4">of Favourite Places</string>
+    <string name="addGeofence">Add to favourite places</string>
+    <string name="youAreNotUpdatedTitle">Update Available</string>
+    <string name="youAreNotUpdatedMessage">A new version of YOUR_APP_NAME is available. Please update to version\s</string>
+    <string name="update">Update</string>
+    <string name="button_update_app">Update App</string>
+    <string name="button_changelog">Change Log</string>
+    <string name="button_travelmode_whereami">Start Travel Mode</string>
+    <string name="button_toggle_trav_mode">Toggle Button to enable and disable travel mode. When enabled, app goes in background and your location will be spoken every few minutes.</string>
+    <string name="dialog_title_start_trav_mode">Start Travel Mode Dialog</string>
+    <string name="dialog_text_stop_trav_mode">Travel mode is currently ON and you are prompted of your location at pre-defined intervals. Please click on stop below to stop it.</string>
+    <string name="dialog_title_stop_trav_mode">Travel Mode is running.</string>
+    <string name="button_start_trav_mode">Start Button to start travel mode with minimum time set at:</string>
+    <string name="stopping_travel_mode">Travel mode is stopped</string>
+    <string name="aroundme_search_box">Search Box. Please type the place or select one from the list below.</string>
+    <string name="button_search">Search</string>
+    <string name="PRO_COMING_SOON">Eye-D Pro coming soon at a nominal cost. This will be ad-free version of Eye-D with many new features. Stay tuned!</string>
+    <string name="about">About Version</string>
+    <string name="message_within_radius">within radius of units</string>
+    <string name="event_trav_mode_start">Starting Travel Mode. Eye-D Pro is put in background.</string>
+    <string name="eight">eight</string>
+    <string name="button_actedit">Enter place name or type manually</string>
+    <string name="message_account_needed">You need to choose a google account for Eye-D Pro to setup properly.</string>
+    <string name="manual_heading_youtube">Youtube Videos</string>
+    <string name="play">Play</string>
+    <string name="youtube_video_2">Description of how to read text in image by sharing image to eye-d app by Vaishnavi. Language English.</string>
+    <string name="manual_heading_audio">Audio Tutorials</string>
+    <string name="audio_1">Audio description of how to use Eye-D app by Vastawik Manav. Language English</string>
+    <string name="audio_2">Audio description of how to use Eye-d app by Labhendra. Language Hindi</string>
+    <string name="button_user_profile">User Profile</string>
+    <string name="tv_userprofile">User Profile</string>
+    <string name="lang_change_info_title">Language change information</string>
+    <string name="lang_change_info_msg">You are switching to your default system language. Please make sure that TTS and voice data is installed for that language. String translations happen on server and maky take additional time to process. Press OK to confirm and cancel to go back.</string>
+    <string name="setting_option_1">Options of location and navigation</string>
+    <string name="setting_unit_of">Unit of distance</string>
+    <string name="setting_select_dist">Select distance unit to be shown in kilometers or miles</string>
+    <string name="setting_km">Kilometers</string>
+    <string name="setting_miles">Miles</string>
+    <string name="setting_option_2">Options of See Object mode</string>
+    <string name="setting_num_obj">Numbering of objects</string>
+    <string name="setting_num_obj_msg">If this is selected, numbering will be shown when telling objects in an image</string>
+    <string name="setting_lang">Language</string>
+    <string name="setting_lang_msg">Language label. Use this option to get the results for see object in English or your phone language</string>
+    <string name="settings_eng">English</string>
+    <string name="setting_display_locale">Phone display locale</string>
+    <string name="setting_locale">locale</string>
+    <string name="setting_option_3">Options of debugging</string>
+    <string name="setting_option_3_msg">Enable debugging label. Next to this label is a toggle button. Keep that toggle button off unless advised by Eye-D team. This will help them diagnose any issue you are facing in using the app.</string>
+    <string name="setting_en_debug">Enable Debugging</string>
+    <string name="setting_en_debug_msg">Enable debugging label. Next to this label is a toggle button. Keep that toggle button off unless advised by Eye-D team. This will help them diagnose any issue you are facing in using the app.</string>
+    <string name="setting_togglebutton">ToggleButton</string>
+    <string name="setting_togglebutton_msg">Enable debugging toggle button. When this toggle switch is ON, debugging will be enabled</string>
+    <string name="setting_send_logs">Send logs</string>
+    <string name="setting_send_logs_msg">Enable debugging label. Next to this label is a toggle button. Keep that toggle button off unless advised by Eye-D team. This will help them diagnose any issue you are facing in using the app.</string>
+    <string name="button_start_trial">Start Trial</string>
+    <string name="button_buy">Buy</string>
+    <string name="event_found_place">found</string>
+    <string name="youtube_video_1">Description of how to use Eye-D app by Vastawik Manav. Language English.</string>
+    <string name="error_geocoder_timeout">Request timedout while fetching address. Please try again.</string>
+    <string name="landmark">Landmarks</string>
+    <string name="button_cancel_upload" translatable="false">Cancel upload</string>
+    <string name="dialog_text_start_trav_mode">Set minimum time interval below.</string>
+    <string name="GPS_LOW_ACCURACY">Waiting for better GPS accuracy</string>
+    <string name="GPS_ACCURACY_IS">GPS Accuracy:</string>
+    <string name="title_upload_video_dialog" translatable="false">Upload Video Dialog</string>
+    <string name="title_overwrite_video" translatable="false">Recording already exists.</string>
+    <string name="message_upload_video_dialog" translatable="false">Click upload video button to start upload. You will hear progress on completion of 25 percent 50 percent 75 percent and 100 percent. You can cancel upload anytime with same button</string>
+    <string name="message_share_petition_subject" translatable="false">Sign Eye-D Petition</string>
+    <string name="message_share_petition_code" translatable="false">#Support-Eye-D. Eye-D needs your help. Please upload your petition video using Eye-D app. Click my referral link below and select eye-d app to open link. Make sure your app is updated.</string>
+    <string name="message_saved_videos" translatable="false">Showing list of all recorded videos below. You can see size and time of creation of video file. Below that are play, upload and delete video buttons</string>
+    <string name="message_petition_thanks" translatable="false">Thank you for signing Eye-D petition</string>
+    <string name="message_petition" translatable="false">Hi. This is Eye-D team here and we thank you and everyone for tremendous support and love for this app so far. While we love to work on this project everyday, there are challenges we face. We are extremely short of bandwidth and funds. And for this we are looking for support from government bodies, foundations and coporations. For this we need your help. Please provide us with a video testimonial. All you need to do is press Yes, I support Eye-D button below and upload a video message on what you feel about Eye-D App and why it should be supported. Once we have enough user videos, we will make a video-chain. Thank you for listening to this message and I really hope you will lend support to Eye-D. Please note that once you click Yes, I support Eye-D button below, it might ask you for permissions like camera, storage and audio which are required to record your video.</string>
+    <string name="message_overwrite_video" translatable="false">You have already recorded a video. Press cancel to go back or press OK to record again.</string>
+    <string name="message_no_video" translatable="false">Please record a video first.</string>
+    <string name="message_leader_soon" translatable="false">People who refer most number of people to make eye-d video will appear in Eye-D Leaderboard. LeaderBoard will appear soon here.</string>
+    <string name="message_instruction_video5" translatable="false">5. Even after uploading, you can redo your video by coming to Eye-D petition activity anytime later.</string>
+    <string name="message_instruction_video4" translatable="false">4. Click Record if you wish to record again</string>
+    <string name="message_instruction_video3" translatable="false">3. Click check recorded videos button to see list of videos and pick one to upload</string>
+    <string name="message_instruction_video2" translatable="false">2. Record video for as you as you want and click the same button to stop video recording</string>
+    <string name="message_instruction_video1" translatable="false">1. Front camera is active now. Click Record button below middle of screen to start recording.</string>
+    <string name="message_initing_tts">Please wait, doing setup.</string>
+    <string name="message_camera_active_video" translatable="false">Front camera is active now. 1. Click Record button below middle of screen to start recording. 2. Record video for as long as you want and click the same button to stop video recording 3. Click check recorded videos button to see list of videos and pick one to upload. 4. Click Record if you wish to record again 5. Even after uploading, you can redo your video by coming to Eye-D petition activity anytime later.</string>
+    <string name="message_alert_medi_delete">Are you sure you want to delete this media file?</string>
+    <string name="message_alert_delete" translatable="false">Are you sure you want to delete this video file?</string>
+    <string name="event_upload_success" translatable="false">Video testimonial submitted. Thank you for supporting Eye-D. You can view your video again by opening Eye-D Petition from home screen of app. We will keep you posted on progress of the campaign.</string>
+    <string name="event_upload_started" translatable="false">Video upload started</string>
+    <string name="event_upload_error" translatable="false">Something went wrong with server. Plese click upload again while we try to fix it.</string>
+    <string name="event_upload_cancelled" translatable="false">Video upload cancelled. Click upload to start upload again or click record to record a new video.</string>
+    <string name="event_upload_75" translatable="false">Upload 75 percent complete</string>
+    <string name="event_upload_50" translatable="false">Upload 50 percent complete</string>
+    <string name="event_upload_25" translatable="false">Upload 25 percent complete</string>
+    <string name="event_upload_100" translatable="false">Upload 100 percent complete. Thank you for giving your video testimonial support. We will keep you posted about this petition status.</string>
+    <string name="event_recording_in_progress" translatable="false">event_recording_in_progress</string>
+    <string name="event_recording_done" translatable="false">Recording of video done. Click play to see recorded video. Click Record if you wish to record again or click upload to submit your video testimonial</string>
+    <string name="event_no_video_files" translatable="false">No Video File Found to Upload</string>
+    <string name="event_no_file_explorer" translatable="false">event_no_file_explorer</string>
+    <string name="event_no_face">Please ensure lights are on and you are facing front camera.</string>
+    <string name="event_low_light" translatable="false">Light sensor tells light is not enough to record video. Please ensure lights are on or move to a better lighted place.</string>
+    <string name="event_file_deleted">File Deleted</string>
+    <string name="event_deviceOnlyModeAlert">Your Location Mode is Set to Device Only. GPS will not work Indoors</string>
+    <string name="event_face_detected" translatable="false">Face detected. Recording will start after countdown.</string>
+    <string name="error_upload_video_first" translatable="false">You need to update your own video before you can refer your friend. Top referers who refer maximum number of people will show up in leaderboard in app and website. Top 20 people at the end of campaign will go in Eye-D hall of Fame.</string>
+    <string name="error_invalid_referral_link" translatable="false">Invalid Referral link</string>
+    <string name="error_google_tts">Error in inializing google TTS. please make sure Google TTS is installed.</string>
+    <string name="button_view">View</string>
+    <string name="button_upload_video_desc" translatable="false">Upload Button. Click here to upload recorded video. After uploading starts, click this same button to cancel upload if you want to cancel.</string>
+    <string name="button_upload_single" translatable="false">Upload</string>
+    <string name="button_upload" translatable="false">Check Recorded Videos</string>
+    <string name="button_stop_record" translatable="false">Stop Recording</string>
+    <string name="button_start_video_activity" translatable="false">Yes, I support Eye-D</string>
+    <string name="button_share">Share</string>
+    <string name="button_see_utube_petition" translatable="false">Watch Video Appeal from Team Eye-D</string>
+    <string name="button_see_my_petition_video" translatable="false">Watch My Video</string>
+    <string name="button_refer" translatable="false">Refer Friends</string>
+    <string name="button_redo_video" translatable="false">Redo My Video</string>
+    <string name="button_record_video">Take Selfie Video</string>
+    <string name="button_record" translatable="false">Record Video</string>
+    <string name="button_open_video_folder" translatable="false">Open Folder</string>
+    <string name="button_no_thanks" translatable="false">No, Thanks</string>
+    <string name="button_leaderBoard" translatable="false">Leader Board</string>
+    <string name="button_gallery">Gallery</string>
+    <string name="button_delete_single">Delete</string>
+    <string name="button_selfie_click">Take Selfie Picture</string>
+    <string name="alert_title_referral_needed" translatable="false">Referral Code Needed</string>
+    <string name="alert_message_referral_needed" translatable="false">Eye-D Petition is running by referral only at this time. Please open Eye-D app by clicking a unique link provided by an Eye-D user or visit this later.</string>
+    <string name="event_1_7_setup">Syncing your data. Please wait...</string>
+    <string name="support_email_subject" translatable="false">Email to Eye-D support</string>
+
+
+    <!--https://github.com/delight-im/Android-Countries/blob/master/res/values/short_codes.xml-->
+    <!--https://sites.google.com/site/tomihasa/google-language-codes-->
+    <string name="main_list_read_text_offline">Read Text Offline</string>
+    <string name="main_list_around_me">Around me</string>
+    <string name="main_list_color_detection">Color Reader</string>
+    <string name="main_list_contact_us">Contact Us</string>
+    <string name="main_list_exit">Exit</string>
+    <string name="main_list_eye_d_market">Eye-D Market</string>
+    <string name="main_list_read_text_in_image">Read text in Image</string>
+    <string name="main_list_see_object_in_image">See object in Image</string>
+    <string name="main_list_where_am_i">Where Am I</string>
+
+    <string name="google_play_update_required">Google Play Services update required.</string>
+    <string name="google_play_current_version">Current version</string>
+    <string name="google_play_required_version">Required version</string>
+    <string name="MESSAGE_SHOULD_UPDATE">You need to update app to continue using it.</string>
+    <string name="message_front_camera_active">Front camera active now.</string>
+    <string name="EVENT_NO_FACE_LIBRARY">Face detector library not yet available. The first time selfie camera is used, app will download a native library to the device in order to do face detection. Usually this completes before the selfie camera is run for the first time. But if that download has not yet completed, then no faces will be detected. Face detector will automatically become operational once the library download completes on device. Please check again later.</string>
+    <string name="event_face_detected_selfie">face detected.</string>
+    <string name="event_light_bright">Light too bright</string>
+    <string name="event_light_perfect">Light perfect</string>
+    <string name="event_light_dim">Light too dim</string>
+    <string name="title_activity_ocr_capture4">OcrCaptureActivity4</string>
+    <string name="title_activity_place">PlaceActivity</string>
+    <string name="message_no_rating">No rating found.</string>
+    <string name="text_rating">Rating</string>
+    <string name="title_activity_ocr_output4">OcrOutputActivity4</string>
+    <string name="message_item_added">Item added to Eye-D items.</string>
+    <string name="message_item_already_added">Item already added to homescreen.</string>
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Ocr dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">Ocr Detector Sample</string>
+    <string name="ocr_header">Click &quot;Detect Text&quot; to detect text</string>
+    <string name="read_text">Detect Text</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="ocr_success">Text read successfully</string>
+    <string name="ocr_failure">No text captured</string>
+    <string name="ocr_error">"Error reading text: %1$s"</string>
+    <string name="title_activity_vision5" translatable="false">VisionActivity5</string>
+
+    <string name="picture">Picture</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">This trialModule needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="button_tutorial">Tutorial</string>
+    <string name="dialog_OCR_Output_tutorial">Advanced OCR Tutorial</string>
+    <string name="message_OCR_Output_tutorial"> Now you can save and share the recognised text using the SHARE and SAVE options respectively. You can also read the text line by line and pause reading anytime using the utility buttons present at the bottom of the screen. To read the previous line use the PREVIOUS SENTENCE button and NEXT SENTENCE button to read the next sentence. The PLAY / PAUSE button can be used anytime to pause the text reading or resume playing when paused. Please note that some contents might be subject to copyright claims and you shall be responsible for mishandling of any such documents.</string>
+    <string name="navigate_button">Click to start google maps navigation</string>
+    <string name="call_button">Click to call the place</string>
+    <string name="add_to_favourite">Add to favourite places</string>
+    <string name="message_advanced_ocr_open_real_time" translatable="false">Camera Active. Point camera to text to read number of identified characters offline. Click on center button to process best image online. Once best image is locked, you can move your camera.</string>
+    <string name="message_advanced_ocr_open_one_time">Camera Active. Right swipe to select camera button and take picture. Advanced buttons at bottom</string>
+    <string name="item_chars" translatable="false">characters found</string>
+    <string name="button_stop" translatable="false">Stop realtime processing</string>
+    <string name="message_start_advanced_OCR">Click center of screen to start camera view processing. Tap again to process best capture picture or click stop at bottom to stop. Advanced menu at bottom of screen</string>
+    <string name="message_picture_button2">Start camera view processing button. Tap to start real time guidance. Once best image is obtained, you can move your camera and tap again to process. Tap stop button at bottom to stop and start again.</string>
+    <string name="setting_def_tts">TTS Engine</string>
+    <string name="setting_user_tts">Default TTS</string>
+    <string name="setting_google_tts">Google Map TTS</string>
+    <string name="setting_option_travel_mode">Options of Travel Mode</string>
+    <string name="TRIAL_ACTIVE">Trial Active</string>
+    <string name="start_trial_message">Start your 5 day trial now.</string>
+    <string name="expired_trial_message">Your trial has expired and you need to purchase the item.</string>
+    <string name="active_trial_message">Your trial is active. You can purchase the item anywhere during the trial period.</string>
+    <string name="TRIAL_EXPIRED">Trial Expired</string>
+    <string name="item_purchased">Purchased</string>
+    <string name="TRY_NOW">Try Now</string>
+    <string name="item_purchased_status">You have already purchased this item.</string>
+    <string name="purchase_successful">Item purchase was successful and added to Eye-D main screen.</string>
+    <string name="purchase_fail">Module purchased failed. Please try again.</string>
+    <string name="market_top_message">Eye-D Market is the place where you can buy more features. Each feature is available as an in-app purchase. You can try each feature for 5 days before making a purchase decision by clicking start trial. To know more about an available feature, click the feature item below.</string>
+    <string name="message_OCR_one_time_info2">Tap on the language button to set or change your preferred OCR language. Advanced OCR will auto detect Latin based languages by default. To read saved images use the OPEN GALLEY option. You will be able to read the saved OCR results from the SAVED RESULTS option even when you are offline. Please ensure that your TTS engine works with the set language. App will automatically download the languages if Google TTS engines is used and selected language is not found. Please message us on LIVE CHAT if you are having trouble in using ADVANCED OCR. You can view this message again by clicking on info button at bottom right corner screen.</string>
+    <string name="message_Read_Text_Offine_one_time_info2">Use this mode to read latin based languages even when you are not connected to internet.</string>
+    <string name="message_Read_Text_offline">Camera Active. Double tap on center of screen to start processing</string>
+    <string name="discount_50">after 50% discount.</string>
+    <string name="discount_20">after 20% discount.</string>
+    <string name="button_switch_camera_back">Switch to Back Camera</string>
+    <string name="button_switch_camera_front">Switch to Front Camera</string>
+    <string name="main_item_accessible_camera">Accessible Camera</string>
+    <string name="notification_center">Notification Center</string>
+    <string name="about_us">About us</string>
+    <string name="button_policy">Privacy policy</string>
+    <string name="button_dataPolicy">Data Policy</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="website">Website</string>
+    <string name="label_privacy_policy">Privacy Policy</string>
+    <string name="aboutcontent">Eye-D helps visually impaired be location aware, explore and navigate to nearby places of interest, evaluate surroundings with their smartphone camera and read printed text. Eye-D will serve as the true companion for most of your daily assistance needs.</string>
+    <string name="about_us_text">Eye-D is a multi-award winning for-profit startup based out of Bangalore, India. Please find more information on our social media handles below and the  website.</string>
+    <string name="link_facebook_url">https://www.facebook.com/HelloEyeD/</string>
+    <string name="link_twitter">https://twitter.com/HelloEyeD</string>
+    <string name="link_website">http://www.eye-d.in</string>
+    <string name="label_termsCondition">Terms and Condition</string>
+    <string name="message_alert_delete_file">Are you sure you want to delete this file?</string>
+    <string name="btn_notification_show_more">Show more</string>
+    <string name="button_front_camera_click">Take Front Picture</string>
+    <string name="message_back_camera_active">Back camera active now</string>
+    <string name="button_camera_click">Take Picture</string>
+    <string name="event_storage_permission_delayed">Unable to create eyed photos directory in gallery. This happens on few phones. Please restart app once and it should work fine. Contact us for further assistance.</string>
+    <string name="main_item_travelmode">Travel Mode</string>
+    <string name="text_widget_info">You can add a travel mode widget to home screen and you can directly control travel mode from home screen. To add widget, click add widget button below. It will open widget screen from where you will have to add it manually.</string>
+    <string name="button_add_widget">Add widget</string>
+    <string name="manual_desc_travelmode2">Select the desired time interval from the drop down menu to get notified about the change in location while the app is in background. Use this mode while you are taking a walk down the lane or traveling. You can also continue using other modes while Travel mode keeps updating you about your change in location.</string>
+    <string name="button_travel_mode_stop">Stop Travel Mode</string>
+    <string name="button_travel_mode_start">Start Travel Mode</string>
+    <string name="button_click">Take Selfie</string>
+    <string name="button_open_google_play_services">Open Settings</string>
+    <string name="message_open_gms">You can also fix this by uninstalling updates to Google Play Services. Click open google play services settings button below, click uninstall updates and restart phone.</string>
+    <string name="setting_option_accessible_camera">Option of accessible camera</string>
+    <string name="setting_clear_google_gms">Clear data of google play servies (rooted phone only))</string>
+    <string name="event_restart_phone">Google Play services data cleared. Please restart app and google play services will update itself. After this, please open accessible camera again and face detection libraries should download shortly.</string>
+    <string name="re_trial_now_message">You can retry this module now.</string>
+    <string name="RETRY_NOW">Retry Now</string>
+    <string name="num_of_trials_message">You have tried module this many times:</string>
+    <string name="retrial_start_date_message">You can retry from this date:</string>
+    <string name="last_trial_date_message">Your last trial ended on this date:</string>
+    <string name="re_trial_later_message">You can retry module again in these many days:</string>
+    <string name="button_replay">Replay</string>
+    <string name="button_smart_Results">Show Smart Results </string>
+    <string name="button_all_Results">Show All Results </string>
+    <string name="button_copy_To_clipboard">Copy to clipBoard </string>
+    <string name="button_pause"> Pause </string>
+    <string name="button_action">Action</string>
+    <string name="message_text_copied">Text copied to Clipboard. Now you can paste it anywhere </string>
+    <string name="message_null_text_cannot_be_copied">No text available to copy. Please try again</string>
+    <string name="dialog_smart_results">New Feature </string>
+    <string name="message_no_smart_results">"There are no e-mail ID, web links and phone numbers"</string>
+    <string name="title_send_email">Choose application to send Email </string>
+    <string name="message_smart_results">"Advance OCR now has Smart Results feature. Tap on Smart Results button next to the Back Button to access Smart Results that feature all the Phone Numbers, Email Contacts and Web Links detected in the Advance Ocr results. Three more buttons , Action button , Copy to Clipboard button and Replay button are added on bottom of screen . Action button can open the dialer with the number , Open email applications with the email address or Open browser with the weblink. To use Action button , Navigate using the buttons to any of the results like numbers ,Emails or Weblinks and then tap on action button.To go back to All results tap on Show All results button. "</string>
+    <string name="button_guidance">Guidance for taking picture </string>
+    <string name="re_trial_trials_exceeded">You have exceeded the maximum number of tries for this module. You will have to purchase it to use it.</string>
+    <string name="dialog_colorBlob_one_time_info"> One Time Info before using Color Blob</string>
+    <string name="dialog_guidance_one_time_info"> One Time Info before using OCR Guidance</string>
+    <string name="message_color_blob_info">Color Reader is designed to help you know the color of the item in front of the camera. There are two modes, Point Color Mode and Object Color Mode. In Point Color Mode you will be notified about the color detected on the centre of the screen by the camera. While in the Object Color Mode you will be informed about the major or dominant color in the item in the camera view. Simply point your camera at any item to know its color. The Color Reader will work even when you are not connected to the internet</string>
+    <string name="message_guidance_info">OCR Guidance feature is designed to help you know how many corners of document you are reading is visible.</string>
+    <string name="message_guidance_button">Please Wait for Guidance Results</string>
+    <string name="dialog_Read_Text_Offline_one_time_info">One time info before using Read Text Offline</string>
+    <string name="discount_25">after 50% discount</string>
+    <string name="message_upload_file">Select a File to Upload</string>
+    <string name="message_install_file_manager">Please install a File Manager.</string>
+    <string name="message_Failed">Failed</string>
+    <string name="message_color_reader_info">Color Reader is designed to help you know the color of the item in front of the camera. There are two modes, Point Color Mode and Object Color Mode. In Point Color Mode you will be notified about the color detected on the centre of the screen by the camera. While in the Object Color Mode you will be informed about the major or dominant color in the item in the camera view. Simply point your camera at any item to know its color. The Color Reader will work even when you are not connected to the internet</string>
+    <string name="color_Blue">Blue</string>
+    <string name="color_Violet">Violet</string>
+    <string name="color_Indigo">Indigo</string>
+    <string name="color_Green">Green</string>
+    <string name="color_Yellow">Yellow</string>
+    <string name="color_Orange">Orange</string>
+    <string name="color_Red">Red</string>
+    <string name="color_White">White</string>
+    <string name="color_Black">Black</string>
+    <string name="light_color_Gray" translatable="false">Light Gray</string>
+    <string name="color_Gray">Gray</string>
+    <string name="color_Brown">Brown</string>
+    <string name="color_SkyBlue">Sky Blue</string>
+    <string name="color_Cyan">Cyan</string>
+    <string name="color_seaGreen">Sea Green</string>
+    <string name="color_navyBlue">Navy Blue</string>
+    <string name="color_Olive">Olive</string>
+    <string name="color_Golden">Golden</string>
+    <string name="color_lightBrown">Light Brown</string>
+    <string name="color_Maroon">Maroon</string>
+    <string name="color_Magenta">Magenta</string>
+    <string name="color_Pink">Pink</string>
+    <string name="color_Purple">Purple</string>
+    <string name="color_Skin">Skin</string>
+    <string name="color_Silver">Silver</string>
+    <string name="event_color_mode_Point">Point Color Mode On</string>
+    <string name="event_color_mode_Object">Object Color Mode On</string>
+    <string name="message_download_pro">Hey! download Eye-D Pro, the premium utility app for visually impaired</string>
+    <string name="message_language_Selection">Showing language selection</string>
+    <string name="err_no_image_picked">You haven\'t picked Image</string>
+    <string name="err_something_wrong">Something went wrong</string>
+    <string name="number_one">One</string>
+    <string name="message_corner_visible">Corners Visible</string>
+    <string name="number_two">Two</string>
+    <string name="number_three">Three</string>
+    <string name="number_four">Four</string>
+    <string name="err_no_corner_visible">No Corners Visible</string>
+    <string name="err_save_failed">Save Failed</string>
+    <string name="message_Share_via">Share via</string>
+    <string name="err_sms_support_not_available">SMS support not available at this time. Please leave a message in live chat</string>
+    <string name="err_call_support_not_available">Call support not available at this time. Please leave a message in live chat</string>
+    <string name="message_support_team">Support team is available right now.</string>
+    <string name="err_support_team_2">Support team is not available right now and it will be available in another</string>
+    <string name="hours">hours</string>
+    <string name="err_support_team3">Please leave a message in live chat</string>
+    <string name="message_support_team_before_chat_2">This will start a chat with team. \n We will try our best to reply soon, though please expect a delay in reply if we are not online \n In case you don\'t receive a quick reply, please use SMS or CALL option. Press OK to start chat </string>
+    <string name="message_support_team_before_chat">Message before initiating chat</string>
+    <string name="message_support_team_before_call">Message before initiating call</string>
+    <string name="message_support_team_before_call2">Applicable call charges will apply to call a number at Bangalore, Karnataka, India. Please press OK to call.</string>
+    <string name="message_support_team_call">Message Sent. We will call you shortly</string>
+    <string name="message_support_team_generic_failure">Generic failure cause</string>
+    <string name="message_support_team_service_unavailable">Service is currently unavailable</string>
+    <string name="message_support_team_no_pdu">No pdu provided</string>
+    <string name="message_support_team_radio_off">Radio was explicitly turned off</string>
+    <string name="message_travel_mode_current_Address">Current Address:</string>
+    <string name="button_TTS">TTS</string>
+    <string name="auto_messsage_one">Hi, I am Gaurav from Eye-D. Do let me know if you have any feedback , suggestion or problem regarding the app. I would love to hear.</string>
+    <string name="auto_message_final">Thank you for contacting.If you are from India share your mobile number and if you are outside India share you emailID, I will reach to you in some time.</string>
+    <string name="recent_pdf">Recent pdf list</string>
+    <string name="pdf_usage_alert">Pdf usage alert</string>
+
+    <string name="pdf_share_text">options to share pdf</string>
+
+
+    <string name="pdf_share_current_page">share current page</string>
+    <string name="pdf_share_all_pages">share all processed pages</string>
+    <string name="pdf_processed">pdf processed using eyed pro pdf reader</string>
+    <string name="previous_page">Previous page</string>
+    <string name="next_page">Next page</string>
+    <string name="start_of_pdf">start of pdf</string>
+    <string name="end_of_pdf">end of pdf</string>
+    <string name="go_to_page">Go to page</string>
+    <string name="processed_with_eyed_pro">Processed with Eye-D Pro</string>
+    <string name="share_pdf_op1">1. Share current page as text</string>
+    <string name="share_pdf_op2">2. Share all processed pages as text</string>
+    <string name="play_from_beginning">Play from beginning</string>
+    <string name="message_refund_aug_2019" translatable="false">You need to agree to our Refund Policy before continuing by clicking "I Agree" at the bottom of this list. In case you press "Later", you will still be able to user your purchased items but will not be able to access "Eye-D Market". As Eye-D Free runs totally on support of donations made in forms of purchase by Eye-D pro users, we felt it is best to put some terms going forward.
+
+1. All users are strongly advised to avail free trial before making a purchase as experience with a module is different on different devices.
+2. Any refund will be processed strictly within only 2 days of purchase of any module. After 2 days of purchase, no refund will be made.
+3. If user had not tried the module before purchasing, no refund will be made. We encourage all users to avail free trial of module to ensure that the module works as expected on their android mobile device.
+4. No refund will be made if you are unable to use the feature due to unstable beta release. All users are strongly advised not to opt to be a beta tester as they are unstable.
+5. In case you are unable to use feature due to bug in public version, Eye-D team will take 15 working days or less to fix the issue. If Eye-D team is not able to fix the experience, given you satisfy the conditions above, you will be given a 100% refund.
+6. In case of violation of any terms, Eye-D reserves the right to issue the refund. In case Eye-D decides to issue a refund even when a condition above is violated, user will be unable to access Eye-D market for 6 months from the date of refund.
+
+We hope you will continue supporting Eye-D Free in the form of purchases made in Eye-D Pro. </string>
+    <string name="title_refund_policy" translatable="false">Refund Policy</string>
+    <string name="button_later" translatable="false">Later</string>
+    <string name="rooted_phone_found" translatable="false">Rooted phone found</string>
+    <string name="rooted_phone_found_message" translatable="false">You are running Eye-D Pro on a rooted phone which is not permitted. Please remove root and re-install app.</string>
+    <string name="maintainence_title">Dear User</string>
+
+    <string name="maintainence_message">Your EYE-D Pro App is currently under critical maintenance. There will be an update soon. We are sorry for the inconvenience caused. For queries please write to us at ankit@eye-d.in          -Team EYE-D</string>
+
+
+    <string name="location_feature_blocked_title" translatable="false">Feature Unavailable</string>
+
+    <string name="location_feature_blocked_message">This feature is currently unavailable</string>
+
+    <string name="important_update_title">Important update</string>
+    <string name="important_update_message">"This feature is being migrated to Amazon backend and will be available soon with changes. Please click below for more information. "</string>
+
+    <string name="petition_main_content" translatable="false">Dear User, As per the estimate from Googles partner, Project EYE-D will be billed about INR 1400000 ($19730) for running EYE-D Free and Pro App normally. This cost is not sustainable for the project as revenue from App sales are way too less. We are thus migrating to Amazon server and this will impact EYE-D App features. Please sign the petition directed towards Mr. Sundar Pichai (CEO of Google )by clicking on the link below to urge google team to support project EYE-D and the visually impaired community by providing free Google Cloud Credits.
+</string>
+
+    <string name="important_popup">Dear Eye-D user, We are excited to inform that we are moving to a better platform model with technology partners like Google. This will help us bring better products at a more convenient model for all our users. As we go in to the next phase, Eye-D services will need to be stopped temporarily and will be resumed. Regret the inconvenience caused and we are thankful for your continued support. Love, Team Eye-D</string>
+
+    <string name="Sign_petition" translatable="false">Go to sign petition</string>
+
+    <string name="button_petition">Important Petition about getting Eye-D Support from Google</string>
+    <string name="action_sign_in_short" translatable="false">Register</string>
+
+    <string name="email">Email</string>
+    <string name="minimum_password" translatable="false">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed" translatable="false">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email" translatable="false">Change Email</string>
+    <string name="change_password" translatable="false">Change Password</string>
+    <string name="send_password_reset_email" translatable="false">Send Password reset email</string>
+    <string name="remove_user" translatable="false">Remove user</string>
+    <string name="new_pass" translatable="false">New Password</string>
+    <string name="title_activity_profile" translatable="false">Firebase</string>
+    <string name="title_activity_login" translatable="false">Sign in</string>
+    <string name="hint_email" translatable="false">Email</string>
+    <string name="hint_password" translatable="false">Password</string>
+    <string name="hint_name" translatable="false">Fullname</string>
+    <string name="btn_login" translatable="false">LOGIN</string>
+    <string name="btn_link_to_register" translatable="false">Not registed? Get registered now!</string>
+    <string name="btn_link_to_login" translatable="false">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password" translatable="false">ResetPasswordActivity</string>
+    <string name="btn_forgot_password" translatable="false">Forgot your password?</string>
+    <string name="btn_reset_password" translatable="false">Reset Password</string>
+    <string name="btn_back" translatable="false"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email" translatable="false">New Email</string>
+    <string name="btn_change" translatable="false">Change</string>
+    <string name="btn_send" translatable="false">Send</string>
+    <string name="btn_remove" translatable="false">Remove</string>
+    <string name="btn_sign_out" translatable="false">Sign Out</string>
+    <string name="lbl_forgot_password" translatable="false">Forgot password?</string>
+    <string name="forgot_password_msg" translatable="false">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="prompt_password" translatable="false">Enter Password</string>
+    <string name="License" translatable="false">License</string>
+    <string name="kwe_powered" translatable="false">Powered by K.W.E</string>
+    <string name="toast_pdf_filename_mismatch">Filenames do not match, please select again.</string>
+    <string name="alert_pdf_reopen_message">This pdf was opened using a previous version of Eye-D pro incompatible with Android 10 and above. Please re-open the pdf file again. This will be required only once</string>
+    <string-array name="array_language">
+        <item>English</item>
+        <item>Arabic</item>
+        <item>Finnish</item>
+        <item>Czech</item>
+        <item>German</item>
+        <item>Spanish</item>
+        <item>Italian</item>
+        <item>Romanian</item>
+        <item>Russian</item>
+        <item>Swedish</item>
+        <item>Turkish</item>
+        <item>Vietnamese</item>
+        <item>Norwegian</item>
+        <item>Portugese</item>
+        <item>Chinese</item>
+        <item>Persian</item>
+        <item>Ukranian</item>
+    </string-array>
+
+</resources>

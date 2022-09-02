@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- START xml_defaults -->
+<defaultsMap>
+    <entry>
+        <key>loading_phrase</key>
+        <value>Fetching config…</value>
+    </entry>
+    <entry>
+        <key>welcome_message_caps</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>welcome_message</key>
+        <value>Welcome to my awesome app!</value>
+    </entry>
+    <entry>
+        <key>force_update_required</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>force_update_current_version</key>
+        <value>1.0.0</value>
+    </entry>
+    <entry>
+        <key>force_update_store_url</key>
+        <value>https://play.google.com/store/apps/details?id=com.sembozdemir.renstagram</value>
+    </entry>
+</defaultsMap>

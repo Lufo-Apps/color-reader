@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="in.levelup.colorreader">
+
+    <library tools:node="removeAll" />
+    <uses-permission
+        android:name="android.permission.GET_ACCOUNTS"
+        android:maxSdkVersion="22" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="color reader"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:name=".App"
+        android:theme="@style/Theme.Colorreader"
+        tools:targetApi="31"            >
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9896294196280746~6419031594" />
+        <meta-data
+            android:name="com.crashlytics.ApiKey"
+            android:value="ffc3b772c6663063fb436b7a84eea9749eee4840" />
+    </application>
+
+</manifest>

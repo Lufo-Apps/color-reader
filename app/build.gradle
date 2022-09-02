@@ -1,0 +1,362 @@
+buildscript {
+    repositories {
+        jcenter()
+        mavenCentral()
+        google()
+        maven { url "https://jitpack.io" }
+        maven { url 'http://repo1.maven.org/maven2' }
+    }
+
+}
+apply plugin: 'com.android.application'
+apply plugin: 'io.michaelrocks.paranoid'
+apply plugin: 'com.google.firebase.crashlytics'
+
+repositories {
+    jcenter()
+    mavenCentral()
+    google()
+    maven { url 'https://maven.google.com' }
+    mavenCentral()
+}
+
+android {
+    compileSdk 31
+    useLibrary 'org.apache.http.legacy'
+
+    packagingOptions {
+        //pickFirst 'lib/x86/libc++_shared.so'
+        pickFirst 'lib/arm64-v8a/libc++_shared.so'
+        pickFirst 'lib/armeabi-v7a/libc++_shared.so'
+        //pickFirst 'lib/x86_64/libc++_shared.so'
+    }
+
+    signingConfigs {
+        release {
+            /* Add the firebaseCrashlytics extension (by default,
+            * it's disabled to improve build speeds) and set
+            * nativeSymbolUploadEnabled to true. */
+            /*firebaseCrashlytics {
+                nativeSymbolUploadEnabled true
+            }*/
+        }
+    }
+
+    defaultConfig {
+        //signingConfig signingConfigs.debug
+        applicationId "in.levelup.colorreader"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionName "8.6"
+        versionCode 326
+        //multiDexEnabled true
+        ndk {
+            abiFilters 'armeabi-v7a', 'arm64-v8a'
+            //abiFilters 'armeabi-v7a'
+        }
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        externalNativeBuild {
+            ndkBuild {
+                cppFlags ''
+            }
+        }
+        multiDexEnabled true
+        /*externalNativeBuild {
+            cmake {
+                cppFlags ''
+            }
+        }*/
+    }
+
+    buildTypes {
+        debug {
+            // Disable fabric build ID generation for debug builds
+            ext.alwaysUpdateBuildId = false
+            firebaseCrashlytics {
+                mappingFileUploadEnabled false
+            }
+            //proguardFile getDefaultDexGuardFile('dexguard-debug.pro')
+            //proguardFile 'dexguard-project.txt'
+            //proguardFile 'dexguard-project-debug.txt'
+            //proguardFile 'proguard-project.txt'
+            //minifyEnabled true
+            //proguardFiles 'proguard-rules.pro'
+
+            ndk {
+                abiFilters 'armeabi-v7a', 'arm64-v8a'
+                //abiFilters 'armeabi-v7a'
+            }
+
+            externalNativeBuild {
+                ndkBuild {
+                    cppFlags ''
+                }
+            }
+        }
+        release {
+            debuggable false
+            minifyEnabled true
+            //multiDexEnabled true
+            shrinkResources true
+            //firebaseCrashlytics {
+            //  mappingFileUploadEnabled true
+            //}
+            proguardFiles 'proguard-rules.pro'
+
+            ndk {
+                abiFilters 'armeabi-v7a', 'arm64-v8a'
+                //abiFilters 'armeabi-v7a'
+            }
+
+            externalNativeBuild {
+                ndkBuild {
+                    cppFlags ''
+                }
+            }
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        pickFirst 'META-INF/LICENSE'
+        pickFirst 'META-INF/io.netty.versions.properties'
+        pickFirst 'META-INF/INDEX.LIST'
+    }
+    /*compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }*/
+
+    splits {
+        abi {
+            enable true
+            reset()
+            //include 'x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a'
+            include  'armeabi-v7a', 'arm64-v8a'
+            universalApk true
+        }
+    }
+    ndkVersion '21.4.7075529'
+    externalNativeBuild {
+        ndkBuild {
+           // path file('jni/Android.mk')
+        }
+    }
+    buildToolsVersion '30.0.3'
+    /*externalNativeBuild {
+        cmake {
+            path file('CMakeLists.txt')
+            version '3.10.2'
+        }
+    }*/
+}
+
+/*dexguard {
+    path = '../../DexGuard-9.1.1/'
+    //path = '../../DexGuard-9.0.22/'
+    license = '/Users/gaurav/StudioProjects/dexguard-license-2.txt'
+    configurations {
+        release {
+            defaultConfiguration 'dexguard-release.pro'
+            // RASP default configuration
+            //defaultConfiguration 'dexguard-rasp.pro'
+            configuration 'dexguard-project.txt'
+            uploadCrashlyticsMappingFile = true
+        }
+    }
+}*/
+
+/*
+Selectively adding dependencies from Google
+ */
+dependencies {
+    implementation 'com.google.firebase:firebase-crashlytics-buildtools:2.9.1'
+    implementation 'androidx.test.ext:junit:1.1.3'
+    implementation 'androidx.test:monitor:1.5.0'
+    def billing_version = "4.0.0"
+    implementation "com.android.billingclient:billing:$billing_version"
+
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation fileTree(include: ['*.jar'], dir: 'jniLibs')
+    //implementation('com.crashlytics.sdk.android:answers:1.4.7@aar') {
+    //    transitive = true
+    //}
+    //implementation('com.crashlytics.sdk.android:crashlytics:2.10.1@aar') {
+    //    transitive = true
+    //}
+    implementation 'com.google.api-client:google-api-client-android:1.20.0' exclude module: 'httpclient'
+    implementation 'com.google.http-client:google-http-client-gson:1.20.0' exclude module: 'httpclient'
+    //implementation project(':lvl-library')
+//    implementation project(':MarketLicensingLibrary')
+//    implementation project(':darwinWallet')
+    // implementation project(':openCVLibrary24131')
+    // implementation ('com.github.javiersantos:PiracyChecker:0.0.3'){
+    //exclude group: 'com.google.android.vending', module: 'licensing'
+    //}
+    implementation('org.apache.httpcomponents:httpmime:4.5.6') {
+        //exclude module: "httpclient"
+        exclude module: "Consts"
+        exclude group: 'org.apache.httpcomponents', module: 'httpclient'
+
+    }
+    implementation "org.apache.httpcomponents:httpcore:4.4.14"
+
+    //implementation 'com.rmtheis:tess-two:8.0.0'
+    //implementation 'com.drewnoakes:metadata-extractor:2.11.0'
+    //implementation 'org.apache.httpcomponents:httpclient-android:4.3.5.1'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.coordinatorlayout:coordinatorlayout:1.1.0'
+    implementation 'com.google.android.material:material:1.2.0-alpha06'
+//    implementation 'com.android.support:appcompat-v7:28.1.1'
+    //implementation 'com.android.support:design:28.1.1'
+
+    implementation 'androidx.legacy:legacy-support-v13:1.0.0'
+    implementation 'org.apache.commons:commons-text:1.6'
+
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'com.android.volley:volley:1.1.1'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'com.google.android.gms:play-services-location:18.0.0'
+    implementation 'com.google.android.gms:play-services-auth:19.0.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.1'
+    implementation 'com.google.android.gms:play-services-analytics:17.0.0'
+    implementation 'com.google.android.gms:play-services-gcm:17.0.0'
+    //implementation 'com.google.android.gms:play-services-places:17.0.0'
+    implementation 'com.google.android.gms:play-services-vision:20.0.0'
+
+    //Firebase
+    implementation 'com.google.firebase:firebase-ads:20.1.0'
+    implementation 'com.google.firebase:firebase-messaging:22.0.0'
+    implementation 'com.google.firebase:firebase-iid:21.1.0'
+    implementation 'com.google.firebase:firebase-auth:21.0.1'
+    implementation 'com.google.firebase:firebase-core:19.0.0'
+    implementation 'com.google.firebase:firebase-database:20.0.0'
+    implementation 'com.google.firebase:firebase-functions:20.0.0'
+    implementation 'com.google.firebase:firebase-firestore:23.0.0'
+    implementation 'com.google.firebase:firebase-analytics:19.0.0'
+    implementation 'com.google.firebase:firebase-config:21.0.0'
+//    implementation 'com.crashlytics.sdk.android:crashlytics:2.10.1'
+    implementation 'com.google.firebase:firebase-crashlytics:18.2.7'
+    // Add the Firebase Crashlytics NDK dependency.
+    implementation 'com.google.firebase:firebase-crashlytics-ndk:18.2.7'
+    implementation "com.google.firebase:firebase-storage:19.1.1"
+    implementation 'com.google.firebase:firebase-ml-vision:24.0.3'
+    implementation 'com.google.firebase:firebase-ml-vision-image-label-model:20.0.1'
+    implementation 'com.google.firebase:firebase-ml-natural-language:22.0.0'
+    implementation 'com.google.firebase:firebase-ml-natural-language-translate-model:20.0.8'
+
+    implementation 'io.grpc:grpc-api:1.26.0'
+
+    implementation 'com.google.apis:google-api-services-vision:v1-rev2-1.21.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    //implementation 'id.zelory:compressor:2.1.0'
+    implementation 'com.google.maps.android:android-maps-utils:0.4.4'
+    implementation 'com.loopj.android:android-async-http:1.4.10'
+    //implementation 'com.sendbird.sdk:sendbird-android-sdk:2.2.6'
+    implementation 'com.github.rampo.updatechecker:library:2.1.8'
+    implementation 'com.avast:android-styled-dialogs:2.3.3'
+    implementation 'com.koushikdutta.ion:ion:2.1.6'
+    implementation 'com.squareup:otto:1.3.8'
+    implementation 'de.cketti.library.changelog:ckchangelog:1.2.2'
+    implementation 'com.squareup.okhttp3:okhttp:3.12.2'
+    implementation 'com.github.hotchemi:android-rate:1.0.0'
+    implementation 'com.github.bumptech.glide:glide:3.7.0'
+    implementation 'com.google.apis:google-api-services-translate:v2-rev47-1.22.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'org.jsoup:jsoup:1.12.1'
+    implementation 'com.microsoft.projectoxford:vision:1.0.374'
+    implementation 'com.bugfender.sdk:android:3.+'
+    implementation 'com.scottyab:secure-preferences-lib:0.1.7'
+    implementation 'com.squareup.retrofit2:retrofit:2.6.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.6.1'
+    implementation 'com.github.doctoror.geocoder:library:1.3.0'
+    implementation 'com.github.javiersantos:PiracyChecker:1.1'
+
+    implementation 'net.zetetic:android-database-sqlcipher:3.5.7@aar'
+    //implementation "net.zetetic:android-database-sqlcipher:4.4.2"
+    //implementation 'com.github.User:Repo:Tag'
+    //implementation 'com.facebook.stetho:stetho:1.5.0'
+    //implementation files('libs/sendbird-android-sdk-2.2.6.jar')
+    //implementation 'com.jsibbold:zoomage:1.1.0'
+    implementation project(':openCVLibrary411')
+
+    //implementation 'com.github.barteksc:android-pdf-viewer:2.8.2'
+    implementation 'com.github.barteksc:pdfiu' +
+            'm-android:1.9.0'
+    implementation 'com.google.apis:google-api-services-drive:v3-rev136-1.25.0'
+    implementation 'com.arasthel:asyncjob-library:1.0.3'
+    implementation 'org.greenrobot:eventbus:3.1.1'
+
+    //Joda Time //
+    implementation 'joda-time:joda-time:2.10'
+
+    implementation('com.google.android.libraries.places:places:1.1.0') {
+        exclude group: 'com.github.bumptech.glide', module: 'glide'
+    }
+    //implementation 'com.google.gms:google-services:4.3.3'
+    implementation 'com.google.cloud:google-cloud-translate:1.87.0'
+    //implementation 'com.google.cloud:google-cloud-translate:2.1.8'
+
+    implementation 'com.scottyab:rootbeer-lib:0.0.7'
+
+    // Required for AWS Cognitprotobuf-javaliteo //
+    implementation('com.amazonaws:aws-android-sdk-cognitoauth:2.16.+@aar') { transitive = true }
+    implementation 'com.amazonaws:aws-android-sdk-rekognition:2.15+'
+
+    //AWS Base Sdk
+    implementation 'com.amazonaws:aws-android-sdk-core:2.16.12'
+
+    //AWS AppSync Sdk
+    implementation 'com.amazonaws:aws-android-sdk-appsync:2.8.+'
+
+    implementation 'com.google.cloud:google-cloud-vision:1.99.1'
+
+    implementation 'com.what3words:w3w-android-wrapper:3.1.0'
+    implementation 'org.osmdroid:osmdroid-android:6.1.8'
+    implementation 'com.github.MKergall:osmbonuspack:6.6.0'
+    implementation 'com.implimentz:unsafe:0.0.6'
+    implementation 'com.google.android.gms:play-services-mlkit-text-recognition:18.0.0'
+    // To recognize Latin script
+    implementation 'com.google.mlkit:text-recognition:16.0.0-beta4'
+
+    // To recognize Chinese script
+    implementation 'com.google.mlkit:text-recognition-chinese:16.0.0-beta4'
+
+    // To recognize Devanagari script
+    implementation 'com.google.mlkit:text-recognition-devanagari:16.0.0-beta4'
+
+    // To recognize Japanese script
+    implementation 'com.google.mlkit:text-recognition-japanese:16.0.0-beta4'
+
+    // To recognize Korean script
+    implementation 'com.google.mlkit:text-recognition-korean:16.0.0-beta4'
+
+}
+
+configurations {
+    implementation.exclude group: "org.apache.httpcomponents", module: "httpclient"
+    implementation.exclude(group: 'com.google.api.grpc', module: 'proto-google-common-protos')
+    //implementation.exclude(group: 'com.google.firebase', module: 'protolite-well-known-types')
+    //implementation.exclude(group: 'com.google.protobuf', module: 'protobuf-java')
+    implementation.exclude(group: 'com.google.protobuf', module: 'protobuf-javalite')
+    implementation.exclude(group: 'com.google.protobuf', module: 'protobuf-lite')
+    implementation.exclude(group: 'com.google.firebase', module: 'protolite-well-known-types')
+
+    //all*.exclude group: 'com.google.firebase', module: 'firebase-common'
+    //all*.exclude group: 'com.google.firebase', module: 'firebase-core'
+    //all*.exclude group: 'com.google.firebase', module: 'firebase-iid'
+
+    all{
+        exclude group: 'commons-logging', module: 'commons-logging'
+    }
+}
+
+tasks.withType(JavaCompile) {
+    options.fork = true
+    options.incremental = true
+}
+
+apply plugin: 'com.google.gms.google-services'
+googleServices { disableVersionCheck = true }

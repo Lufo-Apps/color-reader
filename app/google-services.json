@@ -1,0 +1,123 @@
+{
+  "project_info": {
+    "project_number": "327467773696",
+    "firebase_url": "https://eye-d-pro.firebaseio.com",
+    "project_id": "eye-d-pro",
+    "storage_bucket": "eye-d-pro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327467773696:android:54da25094222e31a",
+        "android_client_info": {
+          "package_name": "in.gingermind.eyedpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327467773696-4d7e8iqmp6k7njp2q5nqv952p0kits43.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.gingermind.eyedpro",
+            "certificate_hash": "365fa795235f045ff7f11c6be9ce7d75d5a7fe8d"
+          }
+        },
+        {
+          "client_id": "327467773696-6dkbeu6c9gth4snj5epmvkrf890lmgkm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.gingermind.eyedpro",
+            "certificate_hash": "d341efee533f3af822bbcc1f2de3c413a4ec9779"
+          }
+        },
+        {
+          "client_id": "327467773696-7ck3vgcu1td8gilv5j796olh7iep2gjo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.gingermind.eyedpro",
+            "certificate_hash": "8edb5c606c9a79486c1f2eb558be106a75227d17"
+          }
+        },
+        {
+          "client_id": "327467773696-fekkkurf42or3i3l40vrfeei7ld3vfpo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.gingermind.eyedpro",
+            "certificate_hash": "2bead51a1623f8a3142e0bf43138e865bb60f61f"
+          }
+        },
+        {
+          "client_id": "327467773696-k6ghkrp7ca9k72lbfv5sae9vn0vq9v6e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.gingermind.eyedpro",
+            "certificate_hash": "0e68034da9179f31855ef162b9355e0c5e16be6f"
+          }
+        },
+        {
+          "client_id": "327467773696-mfurhks381f4on7ab8a3qs35topslffv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.gingermind.eyedpro",
+            "certificate_hash": "5d1cb62b87a382582409fa10e69eaba62def7ef0"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn2F_JC8k82PbRdJHedODNJHvqooozEyk"
+        },
+        {
+          "current_key": "AIzaSyAe9-oY8OfOXy0naHEtFPuD9rbpBO9-F08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327467773696-fdsu1eeo0g4o6koe1cdfpg5t5f96j7dt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327467773696:android:2b41952102744d8381cde5",
+        "android_client_info": {
+          "package_name": "in.levelup.colorreader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327467773696-qakdr7njq7u4q948v8q91ba74738csvk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.levelup.colorreader",
+            "certificate_hash": "365fa795235f045ff7f11c6be9ce7d75d5a7fe8d"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn2F_JC8k82PbRdJHedODNJHvqooozEyk"
+        },
+        {
+          "current_key": "AIzaSyAe9-oY8OfOXy0naHEtFPuD9rbpBO9-F08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327467773696-fdsu1eeo0g4o6koe1cdfpg5t5f96j7dt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
